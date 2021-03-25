@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>страница</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <form action="https://60376bfd5435040017722533.mockapi.io/form" method ="post">
+    <p>Задать вопрос</p>
+    <input type="text" pattern="[А-Яа-я\s-]+" required placeholder="Фамилия Имя Отчество *" name="name"><br>
+    <input type="text" pattern="[0-9/s-+]+" maxlength= 18 required placeholder="Телефон *" name="phone"><br>
+    <input type="email" required placeholder="Email " name="email"><br> 
+    <button type="submit">ОТПРАВИТЬ ЗАПРОС</button>
+  </form>
+  </body>
+</html> 
